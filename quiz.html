@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz-app  |  Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 900px)" href="phone.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="container">
+            <h3>Welcome To The Quiz:  <span class="user"></span></h3>
+            <div class="circles">
+                <div id="1" class="circle">
+                    <h4>1</h4>
+                </div>
+                <div id="2" class="circle">
+                    <h4>2</h4>
+                </div>
+                <div id="3" class="circle">
+                    <h4>3</h4>
+                </div>
+                <div id="4" class="circle">
+                    <h4>4</h4>
+                </div>
+                <div id="5" class="circle">
+                    <h4>5</h4>
+                </div>
+            </div>
+            <span id="time"></span>
+        </div>
+        <div class="container">
+            <h2 class="question">What is your favourite color ?</h2>
+            <ul>
+                <li> <input type="radio" name="options" id="first" class="options">
+                    <label for="first" id="opt1"> Option1 </label>
+                </li>
+            </ul>
+            <ul>
+                <li> <input type="radio" name="options" id="second" class="options">
+                    <label for="second" id="opt2"> Option2 </label>
+                </li>
+            </ul>
+            <ul>
+                <li> <input type="radio" name="options" id="third" class="options">
+                    <label for="third" id="opt3"> Option3 </label>
+                </li>
+            </ul>
+            <ul>
+                <li> <input type="radio" name="options" id="fourth" class="options">
+                    <label for="fourth" id="opt4"> Option4 </label>
+                </li>
+            </ul>
+            <button id="submit">Submit</button>
+
+            <div class="nav-btn">
+                <button class="btn" id="next">Next</button>
+            </div>
+
+            <div class="showArea" id="showScore"></div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
